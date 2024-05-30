@@ -37,5 +37,4 @@ resetButton.addEventListener('click', function() {
         createGrid(squaresPerSide);
     }
 });
-
 createGrid(16);
