@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#resetButton {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.container {
+    display: grid;
+    width: 80vmin;
+    height: 80vmin;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    opacity: opacity / 10px;
+    
+}
+
+.square {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.square.hovered {
+    background-color: #3498db;
+     
+}
